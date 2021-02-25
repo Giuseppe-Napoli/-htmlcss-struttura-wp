@@ -1,0 +1,69 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* BODY */
+header,  main, footer{
+  width: 75%;
+  margin: auto;
+}
+
+/* HEADER */
+.intro{
+  height: 150px;
+  background-color: #E579E6;
+  margin-bottom: 30px;
+}
+
+.image{
+  height: 500px;
+  background-color: #E1D67A ;
+  margin-bottom: 30px;
+ }
+
+ /* MAIN */
+ .container{
+  height: 750px;
+  background-color: #0086FF ;
+  margin-bottom: 30px;
+ }
+
+ .title{
+  height: 70px;
+  background-color: #ABCFE7;
+  margin-bottom: 15px;
+ }
+
+ main .main-finance,
+ main .main-content,
+ main .main-investiment{
+  float: left;
+  background-color: #ABCFE7;
+  height: 86%;
+ }
+
+ .main-finance, .main-investiment{
+  width: 18%;
+
+ }
+
+ .main-content{
+  width: 60% ;
+  margin: 0 2%;
+ }
+
+ /* FOOTER */
+footer{
+  height: 80px;
+  background-color:#8801FE;
+  margin-bottom: 20px;
+}
